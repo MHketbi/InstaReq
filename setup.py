@@ -1,8 +1,13 @@
+import pathlib
 from setuptools import setup, find_packages
+
+# Read the contents of the README.md file
+here = pathlib.Path(__file__).parent
+long_description = (here / "README.md").read_text()
 
 setup(
     name="InstaReq",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=[
         "requests",
