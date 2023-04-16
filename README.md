@@ -13,3 +13,8 @@ InstaReq is a Python package that simplifies the process of installing other Pyt
 To install InstaReq, clone this repository and run:
 
 ```pip install -e .```
+
+## Planned changes
+
+1- read requirements.txt
+2- more features are planned
